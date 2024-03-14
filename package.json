@@ -1,5 +1,5 @@
 {
-  "homepage": "https://psgpraveen.github.io/port",
+  "homepage": "https://psgpraveen.github.io/",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
