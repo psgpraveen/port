@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Routes>
           <Route
-            path="/port"
+            path="/"
             element={
               <>
                 <Header />
