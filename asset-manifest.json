@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.72dd1aa8.css",
-    "main.js": "/port/static/js/main.87bc1850.js",
+    "main.js": "/port/static/js/main.10d9347a.js",
     "static/js/453.8ab44547.chunk.js": "/port/static/js/453.8ab44547.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -30,11 +30,11 @@
     "static/media/ROBOTIC ICON.png": "/port/static/media/ROBOTIC ICON.bc508afc8f056990a2ba.png",
     "index.html": "/port/index.html",
     "main.72dd1aa8.css.map": "/port/static/css/main.72dd1aa8.css.map",
-    "main.87bc1850.js.map": "/port/static/js/main.87bc1850.js.map",
+    "main.10d9347a.js.map": "/port/static/js/main.10d9347a.js.map",
     "453.8ab44547.chunk.js.map": "/port/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72dd1aa8.css",
-    "static/js/main.87bc1850.js"
+    "static/js/main.10d9347a.js"
   ]
 }
