@@ -33,29 +33,29 @@ const index = () => {
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
             <img src={IMG8} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
-        {/* <div className="hidden duration-700 ease-in-out  " data-carousel-item>
+        <div className="hidden duration-700 ease-in-out  " data-carousel-item>
             <img src={IMG9} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div> */}
-        {/* <div className="hidden duration-700 ease-in-out  " data-carousel-item>
+        </div>
+        <div className="hidden duration-700 ease-in-out  " data-carousel-item>
             <img src={IMG10} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div> */}
-        {/* <div className="hidden duration-700 ease-in-out  " data-carousel-item>
+        </div>
+        <div className="hidden duration-700 ease-in-out  " data-carousel-item>
             <img src={IMG11} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out " data-carousel-item>
             <img src={IMG2} height={100} width={100}className="absolute block w-1/2  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt=""/>
         </div>
-      
+{/*       
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src={IMG3} height={100} width={100}  className="absolute block w-1/3  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
-        
+         */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src={IMG4} className="absolute block w-1/2  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div> */}
-        {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        </div>
+        <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src={IMG5} className="absolute block w-1/2  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div> */}
+        </div>
     </div>
    
     <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -64,6 +64,13 @@ const index = () => {
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 8" data-carousel-slide-to="7"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 9" data-carousel-slide-to="8"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 10" data-carousel-slide-to="9"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 11" data-carousel-slide-to="10"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 12" data-carousel-slide-to="11"></button>
     </div>
   
     <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
