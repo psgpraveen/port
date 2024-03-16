@@ -14,51 +14,51 @@ const index = () => {
   return (
    
 
-<div id="default-carousel" className="relative w-full p-8" data-carousel="slide">
+<div id="default-carousel" className="relative w-full overflow-hidden p-8" data-carousel="slide">
 
-<div className="relative h-24 lg:h-96 p-16 lg:mx-32 overflow-hidden rounded-lg " data-carousel="slide">
+<div className="relative h-fit lg:h-96 p-32 lg:p-16 lg:mx-32 overflow-hidden rounded-lg " data-carousel="slide">
        
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG5} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG5} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG6} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG6} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG7} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG7} height={100} width={100}  className="absolute mix-blend-darken block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG8} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG8} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG9} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG9} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG10} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG10} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG11} height={100} width={100}  className="absolute block w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG3} height={100} width={100}  className="absolute block lg:w-1/2 w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out " data-carousel-item>
-            <img src={IMG2} height={100} width={100}className="absolute block w-1/2  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt=""/>
+            <img src={IMG2} height={100} width={100}className="absolute block  lg:w-1/2 w-2/3  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt=""/>
         </div>
 {/*       
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={IMG3} height={100} width={100}  className="absolute block w-1/3  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG11} height={100} width={100}  className="absolute block w-1/3  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
          */}
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src={IMG4} className="absolute block w-1/2  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG4} className="absolute block w-1/2  h-fit -translate-x-1/2 -translate-y-1/2 top-2/3 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img src={IMG5} className="absolute block w-1/2  -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
     </div>
    
-    <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+    <div className="absolute z-30 flex my-3 -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
         <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
