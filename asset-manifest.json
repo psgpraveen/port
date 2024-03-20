@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.fe90c886.css",
-    "main.js": "/port/static/js/main.77f4c032.js",
+    "main.css": "/port/static/css/main.fdf1b3cd.css",
+    "main.js": "/port/static/js/main.ee49ee3a.js",
     "static/js/453.8ab44547.chunk.js": "/port/static/js/453.8ab44547.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -12,7 +12,6 @@
     "static/media/certificate.jpg": "/port/static/media/certificate.4439b355ee113d80ad00.jpg",
     "static/media/Ldr icone.png": "/port/static/media/Ldr icone.01130952b750ba6204e1.png",
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.9c3c0e55a8ec5e1c5fdc.jpg",
-    "static/media/Technology.jpg": "/port/static/media/Technology.49d3c33d7ea34a80a772.jpg",
     "static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).jpg": "/port/static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).75f919102217cd1e20ca.jpg",
     "static/media/Oasis INFOBYTE.jpg": "/port/static/media/Oasis INFOBYTE.102f8546c0af3708bdcd.jpg",
     "static/media/IIIT Allahabad.jpg": "/port/static/media/IIIT Allahabad.fb6c9120ab7a15d17c4e.jpg",
@@ -31,12 +30,12 @@
     "static/media/ROBOTIC ICON.png": "/port/static/media/ROBOTIC ICON.bc508afc8f056990a2ba.png",
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
-    "main.fe90c886.css.map": "/port/static/css/main.fe90c886.css.map",
-    "main.77f4c032.js.map": "/port/static/js/main.77f4c032.js.map",
+    "main.fdf1b3cd.css.map": "/port/static/css/main.fdf1b3cd.css.map",
+    "main.ee49ee3a.js.map": "/port/static/js/main.ee49ee3a.js.map",
     "453.8ab44547.chunk.js.map": "/port/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe90c886.css",
-    "static/js/main.77f4c032.js"
+    "static/css/main.fdf1b3cd.css",
+    "static/js/main.ee49ee3a.js"
   ]
 }
