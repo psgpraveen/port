@@ -4,14 +4,14 @@ import img1 from "./ArmCircuit.jpg";
 import img3 from "./Armpic1.png";
 const index = () => {
   return (
-    <div className="card w-full snap-x glass lg:p-16">
+    <div id='rob'className="card w-full snap-x glass lg:p-16">
       <figure className="snap-center">
         <motion.img  initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
-          className="max-h-56 w-fit mix-blend-multiply bg-blue-400"
+          className="max-h-56 rounded my-2 mix-blend-darken w-fit bg-blue-400"
           src='https://sklc-tinymce-2021.s3.amazonaws.com/2020/10/robot-kol-animasyon_1602321157.gif'
           height={100}
           width={100}
@@ -124,7 +124,7 @@ const index = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
-            className="snap-center w-fit justi mx-auto max-h-96 "
+            className="snap-center w-fit rounded my-2 justi mx-auto max-h-96 "
             src={img1}
             height={100}
             width={100}
@@ -359,7 +359,7 @@ motor4.run(RELEASE);
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
-          className=" w-fit snap-center mx-auto max-h-96 "
+          className=" w-fit snap-center mx-auto rounded max-h-96 "
           src={img3}
           height={100}
           width={100}

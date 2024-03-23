@@ -7,14 +7,17 @@ import Skill from "./Component/skill/index";
 import Robot from "./Component/ROBO/index";
 import Tesla from "./Component/Tesla/index";
 import Ldr from "./Component/Ldr/index";
-import Feedback from './Component/feedback/index'
+import Feedback from "./Component/feedback/index";
 import PROJECT from "./Component/project/index";
 import Carousel from "./Component/carousel/index";
+import Api from './Component/api/index'
+import Status from './Component/status/index'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-function App() {
 
+function App() {
+ 
   return (
-   <>
+    <>
       <Router>
         <Routes>
           <Route
@@ -23,11 +26,12 @@ function App() {
               <>
                 <Header />
                 <INTRO />
-                <Carousel/>
+                <Carousel />
                 <CARD />
                 <Skill />
                 <PROJECT />
                 <Feedback/>
+                <Status/>
                 <Footer />
               </>
             }></Route>

@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import tesla3 from "./img/Tesla3.mp4";
 const index = () => {
   return (
-     <div className="py-3"> 
+     <div id='tes' className="py-3"> 
       <motion.h1   initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
