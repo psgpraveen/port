@@ -37,10 +37,10 @@ const index = () => {
             <img src={IMG9} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG10} height={100} width={100}  className="absolute block w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG10} height={100} width={100} className="absolute block p-28 w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out  " data-carousel-item>
-            <img src={IMG3} height={100} width={100}  className="absolute block lg:w-1/2 w-2/3 lg:w-1/2 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+            <img src={IMG3} height={100} width={100}  className="absolute block lg:w-1/2 w-2/3 lg:w-1/2 p-28 h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
         </div>
         <div className="hidden duration-700 ease-in-out " data-carousel-item>
             <img src={IMG2} height={100} width={100}className="absolute block  lg:w-1/2 w-2/3  h-fit -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt=""/>

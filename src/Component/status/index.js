@@ -12,7 +12,7 @@ const Index = () => {
   const [m, setM] = useState("none");
   const fetchData = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/status");
+      const res = await axios.get("http://psgpraveen.ap-south-1.elasticbeanstalk.com/status");
       const result = await res.data;
       console.log(result);
       setView(result[0].view);
@@ -30,7 +30,7 @@ const Index = () => {
   };
   const un = async () => {
     try {
-      axios.post("http://localhost:5000/status", {
+      axios.post("http://psgpraveen.ap-south-1.elasticbeanstalk.com/status", {
         like: updatedLike,
       });
     } catch (error) {
@@ -41,7 +41,7 @@ const Index = () => {
     updatedView = view+1;
     setView(updatedView)
     try {
-     await axios.post("http://localhost:5000/status", {
+     await axios.post("http://psgpraveen.ap-south-1.elasticbeanstalk.com/status", {
         view: updatedView,
       });
       console.log("view is updadeed : " + updatedView);

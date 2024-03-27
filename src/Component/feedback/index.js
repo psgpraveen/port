@@ -34,7 +34,7 @@ const Index = () => {
     }
      else {
     try {
-      await axios.post("http://localhost:5000", {
+      await axios.post("http://psgpraveen.ap-south-1.elasticbeanstalk.com/", {
         msg,
         email,
         name,

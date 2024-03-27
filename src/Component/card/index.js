@@ -16,15 +16,17 @@ const index = () => {
         />
       </div>
       <div className="divider divider-horizontal"></div>
-      <div className=" lg:w-4/5 overflow-hidden lg:mb-10 lg:p-8 flex-grow card  rounded-box ">
+      <div className=" lg:w-4/5 overflow-hidden bg-blue-300  lg:mb-10 lg:p-8 flex-grow card  rounded-box ">
         <motion.h1
-          initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
+          initial={{ x: -540, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          whileHover={{ scaleX: 1.05 }}
           whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}
-          className="font-bold text-4xl mx-4 lg:h-28 underline">
+          transition={{ duration: 1 }}
+          className="font-bold text-4xl top-1 mx-4 lg:h-28 underline">
+         <div style={{margin:"-1rem 0 0rem -4rem "}} className="border-solid border-2 border-sky-500 rounded-3xl rounded-l-none w-fit p-6  bg-sky-300">
           About
+          </div> 
         </motion.h1>
         <motion.p
           style={{ height: "auto" }}
@@ -49,7 +51,7 @@ const index = () => {
               <th className="text-black">Name:</th>
               <th className="text-slate-500">Praveen Kumar Gupta</th>
             </motion.tr>
-          </thead>{" "}
+          </thead>
           <tbody>
             <motion.tr
               initial={{ y: 50, opacity: 0 }}

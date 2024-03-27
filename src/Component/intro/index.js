@@ -69,7 +69,7 @@ const Index = () => {
           </div>
         </div>
         <div className="diff-item-2">
-          <div className="bg-base-200 text-9xl text-white-50 font-black grid place-content-center">
+          <div className="bg-base-200/100 text-9xl text-white-50 font-black grid place-content-center">
             <motion.h3
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}

@@ -10,8 +10,8 @@ import Ldr from "./Component/Ldr/index";
 import Feedback from "./Component/feedback/index";
 import PROJECT from "./Component/project/index";
 import Carousel from "./Component/carousel/index";
-import Api from './Component/api/index'
 import Status from './Component/status/index'
+import Comment from './Component/comment/index'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -25,13 +25,14 @@ function App() {
             element={
               <>
                 <Header />
+                <Comment/>
                 <INTRO />
                 <Carousel />
                 <CARD />
+                <Status/>
                 <Skill />
                 <PROJECT />
                 <Feedback/>
-                <Status/>
                 <Footer />
               </>
             }></Route>
