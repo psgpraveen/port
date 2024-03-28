@@ -25,7 +25,6 @@ function App() {
             element={
               <>
                 <Header />
-                <Comment/>
                 <INTRO />
                 <Carousel />
                 <CARD />
@@ -33,6 +32,7 @@ function App() {
                 <Skill />
                 <PROJECT />
                 <Feedback/>
+                <Comment/>
                 <Footer />
               </>
             }></Route>
