@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/port/static/css/main.c0d9ffad.css",
-    "main.js": "/port/static/js/main.17aca9f2.js",
+    "main.js": "/port/static/js/main.ad2a1bbb.js",
     "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
     "static/media/LDR.mp4": "/port/static/media/LDR.eeeacd2f02add08bd24c.mp4",
+    "static/media/psglogo.png": "/port/static/media/psglogo.7ae2b371284547773218.png",
     "static/media/Ldr icone.png": "/port/static/media/Ldr icone.01130952b750ba6204e1.png",
     "static/media/IIIT Allahabad.jpg": "/port/static/media/IIIT Allahabad.1d46cf6360ad05205ec7.jpg",
     "static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).jpg": "/port/static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).75f919102217cd1e20ca.jpg",
@@ -31,11 +32,11 @@
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
     "main.c0d9ffad.css.map": "/port/static/css/main.c0d9ffad.css.map",
-    "main.17aca9f2.js.map": "/port/static/js/main.17aca9f2.js.map",
+    "main.ad2a1bbb.js.map": "/port/static/js/main.ad2a1bbb.js.map",
     "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0d9ffad.css",
-    "static/js/main.17aca9f2.js"
+    "static/js/main.ad2a1bbb.js"
   ]
 }
