@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.a7c8507d.css",
-    "main.js": "/port/static/js/main.5d4143b7.js",
+    "main.js": "/port/static/js/main.22894c57.js",
     "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -13,7 +13,7 @@
     "static/media/Oasis INFOBYTE.jpg": "/port/static/media/Oasis INFOBYTE.102f8546c0af3708bdcd.jpg",
     "static/media/Email-campaign-amico.png": "/port/static/media/Email-campaign-amico.f16dc354be8560f8d565.png",
     "static/media/Bharat Intern .jpg": "/port/static/media/Bharat Intern .ed14fa1e05e6a64c3352.jpg",
-    "static/media/Praveen Resume2.pdf": "/port/static/media/Praveen Resume2.016b742566a0cd01c5a8.pdf",
+    "static/media/Praveen Resume2.pdf": "/port/static/media/Praveen Resume2.13304ed3efc1214a84d4.pdf",
     "static/media/UPSDM.jpg": "/port/static/media/UPSDM.96d82a0606496e98e2df.jpg",
     "static/media/Tata Consultancy Services completion_certificate.jpg": "/port/static/media/Tata Consultancy Services completion_certificate.93031dfc946753afca0f.jpg",
     "static/media/nodejs-express-tutorial-2021.png": "/port/static/media/nodejs-express-tutorial-2021.34a2fecd7110b907406f.png",
@@ -32,11 +32,11 @@
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
     "main.a7c8507d.css.map": "/port/static/css/main.a7c8507d.css.map",
-    "main.5d4143b7.js.map": "/port/static/js/main.5d4143b7.js.map",
+    "main.22894c57.js.map": "/port/static/js/main.22894c57.js.map",
     "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7c8507d.css",
-    "static/js/main.5d4143b7.js"
+    "static/js/main.22894c57.js"
   ]
 }
