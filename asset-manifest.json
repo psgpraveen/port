@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.fb7e1986.css",
-    "main.js": "/port/static/js/main.9b69e327.js",
+    "main.css": "/port/static/css/main.da06365c.css",
+    "main.js": "/port/static/js/main.32bebe02.js",
     "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -31,12 +31,12 @@
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
-    "main.fb7e1986.css.map": "/port/static/css/main.fb7e1986.css.map",
-    "main.9b69e327.js.map": "/port/static/js/main.9b69e327.js.map",
+    "main.da06365c.css.map": "/port/static/css/main.da06365c.css.map",
+    "main.32bebe02.js.map": "/port/static/js/main.32bebe02.js.map",
     "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb7e1986.css",
-    "static/js/main.9b69e327.js"
+    "static/css/main.da06365c.css",
+    "static/js/main.32bebe02.js"
   ]
 }
