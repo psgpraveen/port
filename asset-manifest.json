@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.eaf4a44b.css",
-    "main.js": "/port/static/js/main.cf0d9cd4.js",
+    "main.css": "/port/static/css/main.919435d9.css",
+    "main.js": "/port/static/js/main.ea8ac170.js",
     "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -21,6 +21,7 @@
     "static/media/PSG1.jpg": "/port/static/media/PSG1.31dbd57394ceee61fa18.jpg",
     "static/media/Armpic1.png": "/port/static/media/Armpic1.bbe48259b43e31be6b30.png",
     "static/media/ArmCircuit.jpg": "/port/static/media/ArmCircuit.b1499d271c82a468ec05.jpg",
+    "static/media/Movies-Blocks.jpeg": "/port/static/media/Movies-Blocks.6053f9e4faac994eaab3.jpeg",
     "static/media/sunfest 2018.jpg": "/port/static/media/sunfest 2018.38fc1feaa92a6e4274bc.jpg",
     "static/media/ISRO-Certificate.jpg": "/port/static/media/ISRO-Certificate.9fe0cb776395404b186d.jpg",
     "static/media/tesla-coil.jpg": "/port/static/media/tesla-coil.1b203bf9875f638d5dc6.jpg",
@@ -31,12 +32,12 @@
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
-    "main.eaf4a44b.css.map": "/port/static/css/main.eaf4a44b.css.map",
-    "main.cf0d9cd4.js.map": "/port/static/js/main.cf0d9cd4.js.map",
+    "main.919435d9.css.map": "/port/static/css/main.919435d9.css.map",
+    "main.ea8ac170.js.map": "/port/static/js/main.ea8ac170.js.map",
     "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaf4a44b.css",
-    "static/js/main.cf0d9cd4.js"
+    "static/css/main.919435d9.css",
+    "static/js/main.ea8ac170.js"
   ]
 }
