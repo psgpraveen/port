@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import IMG from "./Email-campaign-amico.png";
 import { motion } from "framer-motion";
 import Api from "../api/index";
@@ -60,7 +60,7 @@ const Index = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
-          className="card lg:m-16 lg:card-side lg:border-5 lg:border-black lg:shadow-xl">
+          className="card rounded-none lg:m-16 lg:card-side  lg:shadow-xl">
           <figure className="lg:w-1/2">
             <img
               src={IMG}

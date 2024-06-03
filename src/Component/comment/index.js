@@ -56,13 +56,13 @@ const Index = () => {
   };
   
   return (
-    <div id="comment"className="p-2 lg:p-16 mx-auto ">
-      <h1 className="text-center text-3xl">Write Your Opinion</h1>
-      <ScrollToBottom className="p-8 border-black rounded border  bg-white bg-opacity-20 chat-start max-h-72  overflow-auto">
+    <div id="comment"className="p-2 border-black lg:mx-96 bg-[url('https://cdn2.vectorstock.com/i/1000x1000/77/61/chat-wallpaper-social-media-message-background-vector-30037761.jpg')] rounded border lg:p-16  ">
+      <h1 className="text-center text-3xl bg-white">Write Your Opinion</h1>
+      <ScrollToBottom className="p-4 bg-opacity-20 chat-start max-h-72  overflow-auto">
         {com.map((data) => {
           return (
             <div key={data._id}>
-              <div className="chat-header text-orange-500">{data.Name}</div>
+              <div className="chat-header text-rose-500">{data.Name}</div>
               <div className="chat-bubble">{data.comment}</div>
               <div className="chat-footer opacity-50 px-8">
                 {getTimeInIndianTimezone(data.Time)}

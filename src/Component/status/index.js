@@ -38,7 +38,7 @@ const Index = ({result}) => {
     updatedView = view+1;
     setView(updatedView)
     try {
-     await axios.post("https://port-sz4o.onrender.com/status", {
+     await axios.post("https://portfo1.vercel.app/status", {
         view: updatedView,
       });
       console.log("view is updadeed : " + updatedView);
@@ -57,7 +57,7 @@ const Index = ({result}) => {
   }, [inView,hasRun]);
   return (
     <motion.div   ref={ref} className="flex justify-center justify-content-center mx-3 py-3">
-      <div className="lg:stats rounded  bg-orange-800 shadow ">
+      <div className="lg:stats rounded  bg-[rgb(99 178 211)] text-black shadow ">
         <div className="stat ">
           <div className="stat-figure text-primary cursor-pointer">
             <svg
@@ -73,9 +73,8 @@ const Index = ({result}) => {
                 d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
             </svg>
           </div>
-          <div className="stat-title">Total Likes</div>
+          <div className="stat-title text-black">Total Likes</div>
           <div className="stat-value text-primary">{like}</div>
-          {/* <div className="stat-desc">21% more than last month</div> */}
         </div>
 
         <div className="stat">
@@ -92,11 +91,11 @@ const Index = ({result}) => {
                 d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
           </div>
-          <div className="stat-title">Page Views</div>
+          <div className="stat- text-black">Page Views</div>
           <div className="stat-value text-secondary">
             {view}
           </div>
-          <div className="stat-desc">21% more than last month</div>
+          <div className="stat-desc text-black">21% more than last month</div>
         </div>
 
         {/* <div className="stat">

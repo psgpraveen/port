@@ -39,7 +39,7 @@ const Index = () => {
   return (
     <div className="relative ">
       {isLoading ? (
-        <div className="w-full  bg-red-300 bg-opacity-25 h-dvh  center flex-col mx-auto grid justify-center justify-items-center"><motion.img className="opacity-30 h-1/3 mix-blend-darken my-auto w-fit" src={img} alt="Loading..."
+        <div className="w-full back1 bg-red-300 bg-opacity-25 h-dvh  center flex-col mx-auto grid justify-center justify-items-center"><motion.img className="opacity-30 h-1/3 mix-blend-darken my-auto w-fit" src={img} alt="Loading..."
         initial={{ opacity: 0 }} 
         animate={{ opacity: 1 }} 
         transition={{ duration: 5, repeat: Infinity }}  />

@@ -4,7 +4,7 @@ import Psg from "./img/PSG1.jpg";
 import cv from "./img/Praveen Resume2.pdf";
 const index = () => {
   return (
-    <div id="card" className="lg:flex w-full my-8 px-8 lg:px-16 py-8">
+    <div id="card" className="lg:flex w-full bg-[D862BC] my-8 px-8 lg:px-16 py-8">
       <div className="grid overflow-hidden lg:w-1/3 h-2/5 m-10 lg:m-0 lg:h-auto flex-grow card bg-base-300 rounded-box place-items-center">
         <motion.img
           style={{ x: -100 }}
@@ -16,7 +16,7 @@ const index = () => {
         />
       </div>
       <div className="divider divider-horizontal"></div>
-      <div className=" lg:w-4/5 overflow-hidden bg-blue-300  lg:mb-10 lg:p-8 flex-grow card  rounded-box ">
+      <div className=" lg:w-4/5 overflow-hidden shadow lg:mb-10 lg:p-8 flex-grow card  rounded-box ">
         <motion.span
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

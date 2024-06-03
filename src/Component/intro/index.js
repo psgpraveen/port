@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion} from "framer-motion";
+import './ccs.css'
 const Index = () => {
   const [display, setDisplay] = useState("");
   let [currentIndex, setCurrentIndex] = useState(0);
@@ -34,7 +35,7 @@ const Index = () => {
     <>
       <div className="diff aspect-[16/9] lg:aspect-[22/9] lg:p-16 mx-auto lg:w-3/4" >
         <div className="diff-item-1 ">
-          <div className="bg-primary text-primary-content text-black text-9xl font-black grid place-content-center">
+          <div className="bg-tab-content text-primary-content text-black text-9xl font-black grid place-content-center">
             <motion.h3
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -64,20 +65,20 @@ const Index = () => {
               viewport={{ once: true }}
               className=" text-xl font-bold text-red-800 card-title justify-center items-center">
               <h2>I am </h2>
-              {display}
+              {display}|.
             </motion.h2>
           </div>
         </div>
-        <div className="diff-item-2">
-          <div className="bg-black bg-opacity-50 text-9xl text-white-50 font-black grid place-content-center">
+        <div className="diff-item-2 lg:opacity-0">
+          <div className="bg-black bg-opacity-50 text-9xl text-cyan-400  font-black grid place-content-center">
             <motion.h3
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 3, delay: 0.25 }}
               viewport={{ once: true }}
-              className=" text-sm card-title text-red-600 justify-center items-center">
+              className=" text-sm card-title text-black justify-center items-center">
               Hey! I AM
-            </motion.h3>
+            </motion.h3> 
             <motion.h1
               initial={{ opacity: 0, y: 50 }}
               whileInView={{
@@ -97,13 +98,13 @@ const Index = () => {
                 transition: { duration: 3, delay: 1 },
               }}
               viewport={{ once: true }}
-              className=" text-xl font-bold text-red-700 card-title justify-center items-center">
-              <h2>I am </h2>
-              {display}
+              className=" text-xl font-bold text-Fuchsia-600 card-title justify-center items-center">
+              <h2 className="text-black">I am </h2>
+              {display}|.
             </motion.h2>
           </div>
         </div>
-        <div className="diff-resizer"></div>
+        <div className="diff-resizer lg:opacity-0"></div>
       </div>
     </>
   );

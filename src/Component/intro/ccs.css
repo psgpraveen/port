@@ -1,0 +1,5 @@
+@media screen and (min-width:1000px){
+    .diff-item-1:after{
+        opacity: 0;
+    }
+}
