@@ -18,12 +18,12 @@ const index = () => {
   };
 
   return (<>
-    <div id="card" className="lg:flex w-full lg:h-[33rem] -mt-[3.5rem] lg:-mt-[5rem] px-8 lg:px-48 py-8">
+    <div id="card" className="lg:flex w-full lg:h-[38rem] -mt-[3.5rem] lg:-mt-[5rem] px-8 lg:px-48 py-8">
       <div className="grid overflow-hidden lg:w-1/3 h-2/5 m-10 lg:m-0 lg:h-auto flex-grow card bg-base-300 rounded-box place-items-center">
         <motion.img
           style={{ x: -100 }}
           whileInView={{ x: 1, transition: { duration: 1 } }}
-          className="h-fit w-fit"
+          className="h-fit lg:h-[34rem] w-fit"
           src={Psg}
           height={90}
           width={100}
