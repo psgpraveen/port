@@ -20,17 +20,17 @@ function index() {
         <div className="flex items-center">
             <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
-                    <a href="/port" className="text-gray-900 dark:text-white hover:underline" aria-current="page">Home</a>
+                    <a href="/port" className="text-gray-900 lg:text-xl dark:text-white hover:underline" aria-current="page">Home</a>
                 </li>
                 <li>
-                    <Link to="/project" className="text-gray-900 dark:text-white hover:underline">Projects</Link>
+                    <Link to="/about" className="text-gray-900 lg:text-xl dark:text-white hover:underline">About</Link>
                 </li>
                 <li>
-                    <Link to="/about" className="text-gray-900 dark:text-white hover:underline">ABOUT</Link>
+                    <Link to="/project" className="text-gray-900 lg:text-xl dark:text-white hover:underline">Projects</Link>
                 </li>
-                <li>
+                {/* <li>
                     <a href="#comment" className="text-gray-900 dark:text-white hover:underline">Comment</a>
-                </li>
+                </li> */}
             </ul>
         </div>
     </div>

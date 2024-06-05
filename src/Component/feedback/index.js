@@ -60,7 +60,7 @@ const Index = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
-          className="card rounded-none lg:m-16 lg:card-side  lg:shadow-xl">
+          className="card rounded-none lg:rounded-3xl lg:m-16 lg:card-side lg:mx-[3rem] lg:shadow-xl">
           <figure className="lg:w-1/2">
             <img
               src={IMG}
@@ -86,7 +86,7 @@ const Index = () => {
               whileInView={{ y: 0, opacity: 1 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 1.1 }}
-              transition={{ duration: 0.5, delay: 0.25 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
               type="text"
               onChange={(e) => {
                 setName(e.target.value);
@@ -101,7 +101,7 @@ const Index = () => {
               whileInView={{ y: 0, opacity: 1 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 1.1 }}
-              transition={{ duration: 0.5, delay: 0.5 }}
+              transition={{ duration: 0.5, delay: 0.35 }}
               onChange={(e) => {
                 setEmail(e.target.value);
               }}
@@ -111,13 +111,13 @@ const Index = () => {
               placeholder="Type your Email here"
               className="input py-1 input-bordered input-secondary  bg-blue-50 w-full max-w-xs"
             />
-            <input
+            <motion.input
               type="text"
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 1.1 }}
-              transition={{ duration: 0.5, delay: 1 }}
+              transition={{ duration: 0.5, delay: 0.6}}
               required
               onChange={(e) => {
                 setMsg(e.target.value);

@@ -1,5 +1,4 @@
-
-.ani{
+.ani {
     width: 4rem;
     opacity: 0.2;
     height: 4rem;
@@ -10,34 +9,83 @@
     z-index: 5;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-direction: alternate-reverse; cursor: pointer;
+    animation-direction: alternate-reverse;
+    cursor: pointer;
 }
-.ani1{
+@media screen and (max-width:1024px) {
+    .ani{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.ani1 {
     animation-delay: 0s;
     left: 80%;
 }
-.ani2{
+
+.ani2 {
     animation-delay: 1s;
-    
+
     left: 60%;
 }
-.ani3{
+
+.ani3 {
     animation-delay: 2s;
-    
+
     left: 20%;
 }
-.ani4{
+
+.ani4 {
     animation-delay: 3s;
     left: 40%;
- border-radius: 50%;
+    border-radius: 50%;
+}
+
+.ani5 {
+    animation-delay: 2s;
+    left: 85%;
+    border-radius: 50%;
+}
+
+.ani6 {
+    animation-delay: 1s;
+    left: 10%;
+    border-radius: 250%;
 }
 
 
 @keyframes example {
-    0%   {background-color:red; top:0%; transform: rotate(0deg) ;}
-    20%  {background-color:yellow;; top:20%;}
-    40%  {background-color:blue; top:40%;}
-    60%  {background-color:green; top:60%;}
-    80%  {background-color:rgb(36, 74, 244); top:80%;}
-    100% {background-color:red;top:100%;transform: rotate(360deg);}
-  }
+    0% {
+        background-color: red;
+        top: 0%;
+        transform: rotate(0deg);
+    }
+
+    20% {
+        background-color: yellow;
+        ;
+        top: 20%;
+    }
+
+    40% {
+        background-color: blue;
+        top: 40%;
+    }
+
+    60% {
+        background-color: green;
+        top: 60%;
+    }
+
+    80% {
+        background-color: rgb(36, 74, 244);
+        top: 80%;
+    }
+
+    100% {
+        background-color: red;
+        top: 100%;
+        transform: rotate(360deg);
+    }
+}

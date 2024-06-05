@@ -15,10 +15,10 @@ import IMG11 from "./IMG/Tata Consultancy Services completion_certificate.jpg";
 const Index = () => {  
 
   return (
-    <div className="h-[25rem] mx-auto lg:h-[33rem] lg:w-5/6">
+    <div className="h-[25rem] mx-auto lg:h-[33rem]  xl:w-[65%] lg:w-5/6">
       
        <div className="h-full p-6  lg:w-5/6 mx-auto ">
-      <Carousel className="lg:px-28  mx-auto h-full w-5/6 " slideInterval={1000} >
+      <Carousel className="lg:px-28 lg:m-[-9rem] mx-auto h-full w-5/6 " slideInterval={1000} >
         <img height={100}  src={IMG} alt="..." />
         <img height={100} src={IMG2} alt="..." />
         <img height={100} src={IMG3} alt="..." />

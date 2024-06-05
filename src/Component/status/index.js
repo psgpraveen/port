@@ -14,7 +14,7 @@ const Index = ({result}) => {
     if (result && result.length > 0) {
       setView(result[0].view);
       setLike(result[0].like);
-      console.log(result);
+      // console.log(result);
     }
  }, [result])
  
@@ -41,7 +41,7 @@ const Index = ({result}) => {
      await axios.post("https://portfo1.vercel.app/status", {
         view: updatedView,
       });
-      console.log("view is updadeed : " + updatedView);
+      // console.log("view is updated : " + updatedView);
     } catch (error) {
       console.log(error);
     }
@@ -57,7 +57,7 @@ const Index = ({result}) => {
   }, [inView,hasRun]);
   return (
     <motion.div   ref={ref} className="flex justify-center justify-content-center mx-3 py-3">
-      <div className="lg:stats rounded  bg-[rgb(99 178 211)] text-black shadow ">
+      <div className=" rounded  bg-[rgb(99 178 211)] text-black shadow ">
         <div className="stat ">
           <div className="stat-figure text-primary cursor-pointer">
             <svg

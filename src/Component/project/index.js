@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React  from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Ldr from "./img/Ldr icone.png";
@@ -14,7 +14,7 @@ const fade = {
       animate: {
         opacity: 1,
         y: 0,
-        transition: { duration: 2, delay: 1},
+        transition: { duration: 1, delay: 1},
       },
     };
 const Index = () => {
@@ -37,7 +37,7 @@ const Index = () => {
           </motion.h2>
           <motion.p
             style={{ y: -50, height: "auto" }}
-            whileInView={{ y: 1, transition: { duration: 2 } }}
+            whileInView={{ y: 1, transition: { duration: 1 } }}
             viewport={{once:true}}
             className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
             Explore the whole collection of my projects and its show my skill
@@ -48,7 +48,7 @@ const Index = () => {
         <motion.div
             style={{ x: -50, height: "auto" }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
-            whileInView={{ x: 1, transition: { duration: 2 } }}
+            whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
                <a href="https://psgpraveen.github.io/Movies-Blocks/"
                   target="_blank">
@@ -103,7 +103,7 @@ const Index = () => {
           <motion.div
             style={{ x: -50, height: "auto" }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
-            whileInView={{ x: 1, transition: { duration: 2 } }}
+            whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
                <a href="https://psgpraveen.github.io/chat/"
                   target="_blank">
@@ -160,7 +160,7 @@ const Index = () => {
           <motion.div
             style={{ x: 50, height: "auto" }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
-            whileInView={{ x: 1, transition: { duration: 2 } }}
+            whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
            <a href="https://psgpraveen.github.io/video_/" target="_blank">  <img
               className="mx-auto mb-4 w-36 h-36 rounded-full"
@@ -214,7 +214,7 @@ const Index = () => {
           <motion.div
             style={{ x: -50, height: "auto" }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
-            whileInView={{ x: 1, transition: { duration: 2 } }}
+            whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
                          <a href="https://github.com/psgpraveen/E-commerce-website-.git" target="_blank"><img
               className="mx-auto mb-4 w-36 h-36 rounded-full"
@@ -265,7 +265,7 @@ const Index = () => {
           <motion.div
             style={{ x: 50, height: "auto" }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
-            whileInView={{ x: 1, transition: { duration: 2, ease: "linear" } }}
+            whileInView={{ x: 1, transition: { duration: 1, ease: "linear" } }}
             className="text-center text-gray-500 dark:text-gray-400">
           <a href="https://psgpraveen.github.io/News-Hub/" target="_blank">   <img
               className="mx-auto mb-4 w-36 h-36 rounded-full"
@@ -355,7 +355,7 @@ const Index = () => {
           </motion.div>
           <motion.div
             style={{ x: -50, height: "auto" }}
-            whileInView={{ x: 1, transition: { duration: 2 } }}whileHover={{ scale: 1.05 }}
+            whileInView={{ x: 1, transition: { duration: 1 } }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
             className="text-center text-gray-500 dark:text-gray-400">
             <Link to="/tesla" className="curser-pointer">
@@ -394,7 +394,7 @@ const Index = () => {
           <motion.div
             style={{ x: 50, height: "auto" }}whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.1 }} 
-            whileInView={{ x: 1, transition: { duration: 2 } }}
+            whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
             <Link to="/ldr" className="cerser-pointer">
               

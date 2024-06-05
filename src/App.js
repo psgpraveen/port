@@ -101,6 +101,18 @@ function App() {
             initial="initial"            
             whileInView="animate"
             viewport={{once:true}} className="ani4 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani5 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani6 ani"></motion.div>
     </>
   );
 }

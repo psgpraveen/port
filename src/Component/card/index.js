@@ -2,9 +2,23 @@ import React from "react";
 import { motion } from "framer-motion";
 import Psg from "./img/PSG1.jpg";
 import cv from "./img/Praveen Resume2.pdf";
+// import { motion} from "framer-motion";
+import "../../App.css"
+
+
 const index = () => {
-  return (
-    <div id="card" className="lg:flex w-full bg-[D862BC] my-8 px-8 lg:px-16 py-8">
+  const fade = {
+    initial: {
+      scale:0
+    },
+    animate: {
+      scale:1.3,
+      transition: { duration: 2, delay: 1,repeatType: "Infinity"},
+    },
+  };
+
+  return (<>
+    <div id="card" className="lg:flex w-full lg:h-[33rem] -mt-[3.5rem] lg:-mt-[5rem] px-8 lg:px-48 py-8">
       <div className="grid overflow-hidden lg:w-1/3 h-2/5 m-10 lg:m-0 lg:h-auto flex-grow card bg-base-300 rounded-box place-items-center">
         <motion.img
           style={{ x: -100 }}
@@ -16,7 +30,7 @@ const index = () => {
         />
       </div>
       <div className="divider divider-horizontal"></div>
-      <div className=" lg:w-4/5 overflow-hidden shadow lg:mb-10 lg:p-8 flex-grow card  rounded-box ">
+      <div className=" lg:w-4/5 overflow-hidden shadow  lg:p-8 flex-grow card  rounded-box ">
         <motion.span
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -24,9 +38,9 @@ const index = () => {
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 1 }}
           className="font-bold text-4xl top-1 mx-4 lg:h-28 underline">
-         <div  className="border-solid border-2 border-sky-500 rounded-3xl rounded-l-none w-fit p-3 lg:-ml-16 -ml-8 mt-1 lg:-mt-4 lg:p-6  bg-sky-300">
-          About
-          </div>  
+          <div className="border-solid border-2 border-sky-500 rounded-3xl rounded-l-none w-fit p-3 lg:-ml-16 -ml-8 mt-1 lg:-mt-4 lg:p-6  bg-sky-300">
+            About
+          </div>
         </motion.span>
         <motion.p
           style={{ height: "auto" }}
@@ -35,10 +49,7 @@ const index = () => {
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}
           className="p-2 overflow-hidden">
-          Myself Praveen Gupta belonging to Narayanapur Mirzapur (231305).
-          Currently, I am pursuing Electronics and Communication Engineering (B.
-          Tech) from Institute of Engineering and Technology, Ayodhya, and have
-          done my schooling from Sunbeam School.
+          "I'm Praveen, a Full-Stack and MERN Stack Developer with a passion for crafting comprehensive web solutions. My expertise lies in JavaScript, React, Node.js, Express, and MongoDB, enabling me to build dynamic, responsive applications. Committed to clean code and continuous learning, I aim to understand project needs and deliver scalable, efficient results. If you're seeking a developer with a meticulous approach to both front-end and back-end development, let's connect to create something impactful together."
         </motion.p>
         <table className="lg:m-16 m-3 p-8 font-bold text-black">
           <thead>
@@ -171,9 +182,47 @@ const index = () => {
           <button className="btn btn-primary  w-fit mb-3">
             Download CV
           </button>
-        </motion.a></div>
+        </motion.a></div><motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"
+            whileInView="animate"
+            className="ani1 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani2 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani3 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani4 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani5 ani"></motion.div>
+    <motion.div  whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }} 
+            variants={fade}
+            initial="initial"            
+            whileInView="animate"
+            viewport={{once:true}} className="ani6 ani"></motion.div>
       </div>
+
     </div>
+    
+    </>
   );
 };
 

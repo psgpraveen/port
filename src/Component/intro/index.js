@@ -104,7 +104,7 @@ const Index = () => {
             </motion.h2>
           </div>
         </div>
-        <div className="diff-resizer lg:opacity-0"></div>
+        <div className="diff-resizer w-[3rem] lg:opacity-0"></div>
       </div>
     </>
   );
