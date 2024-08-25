@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.af20f317.css",
-    "main.js": "/port/static/js/main.f2de658b.js",
+    "main.js": "/port/static/js/main.c5da2ec2.js",
     "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -18,7 +18,6 @@
     "static/media/Tata Consultancy Services completion_certificate.jpg": "/port/static/media/Tata Consultancy Services completion_certificate.93031dfc946753afca0f.jpg",
     "static/media/nodejs-express-tutorial-2021.png": "/port/static/media/nodejs-express-tutorial-2021.34a2fecd7110b907406f.png",
     "static/media/certificate.jpg": "/port/static/media/certificate.b0b528041c43ecaf4e5e.jpg",
-    "static/media/PSG1.jpg": "/port/static/media/PSG1.31dbd57394ceee61fa18.jpg",
     "static/media/Armpic1.png": "/port/static/media/Armpic1.bbe48259b43e31be6b30.png",
     "static/media/ArmCircuit.jpg": "/port/static/media/ArmCircuit.b1499d271c82a468ec05.jpg",
     "static/media/Movies-Blocks.jpeg": "/port/static/media/Movies-Blocks.6053f9e4faac994eaab3.jpeg",
@@ -27,6 +26,7 @@
     "static/media/tesla-coil.jpg": "/port/static/media/tesla-coil.1b203bf9875f638d5dc6.jpg",
     "static/media/most aware child.jpg": "/port/static/media/most aware child.fadb6d581a70ebdc1075.jpg",
     "static/media/LDR.png": "/port/static/media/LDR.464cc81ea730354834b9.png",
+    "static/media/PSG1.jpg": "/port/static/media/PSG1.c2ed58be0e682fd7e604.jpg",
     "static/media/Inkedtesla-circuits.jpg": "/port/static/media/Inkedtesla-circuits.a1544bfbb6635c6040a0.jpg",
     "static/media/ROBOTIC ICON.png": "/port/static/media/ROBOTIC ICON.bc508afc8f056990a2ba.png",
     "static/media/news.webp": "/port/static/media/news.ee5ede8467000fa70632.webp",
@@ -34,11 +34,11 @@
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
     "main.af20f317.css.map": "/port/static/css/main.af20f317.css.map",
-    "main.f2de658b.js.map": "/port/static/js/main.f2de658b.js.map",
+    "main.c5da2ec2.js.map": "/port/static/js/main.c5da2ec2.js.map",
     "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af20f317.css",
-    "static/js/main.f2de658b.js"
+    "static/js/main.c5da2ec2.js"
   ]
 }
