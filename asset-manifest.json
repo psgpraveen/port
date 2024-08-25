@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/port/static/css/main.af20f317.css",
-    "main.js": "/port/static/js/main.7ad0d8d0.js",
+    "main.js": "/port/static/js/main.998a9472.js",
     "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -29,15 +29,16 @@
     "static/media/LDR.png": "/port/static/media/LDR.464cc81ea730354834b9.png",
     "static/media/Inkedtesla-circuits.jpg": "/port/static/media/Inkedtesla-circuits.a1544bfbb6635c6040a0.jpg",
     "static/media/ROBOTIC ICON.png": "/port/static/media/ROBOTIC ICON.bc508afc8f056990a2ba.png",
+    "static/media/news.webp": "/port/static/media/news.ee5ede8467000fa70632.webp",
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
     "main.af20f317.css.map": "/port/static/css/main.af20f317.css.map",
-    "main.7ad0d8d0.js.map": "/port/static/js/main.7ad0d8d0.js.map",
+    "main.998a9472.js.map": "/port/static/js/main.998a9472.js.map",
     "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af20f317.css",
-    "static/js/main.7ad0d8d0.js"
+    "static/js/main.998a9472.js"
   ]
 }
