@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.af20f317.css",
-    "main.js": "/port/static/js/main.c5da2ec2.js",
-    "static/js/453.d855a71b.chunk.js": "/port/static/js/453.d855a71b.chunk.js",
+    "main.css": "/port/static/css/main.1445c7b9.css",
+    "main.js": "/port/static/js/main.c1828af8.js",
+    "static/js/488.ccc9b638.chunk.js": "/port/static/js/488.ccc9b638.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
     "static/media/LDR.mp4": "/port/static/media/LDR.eeeacd2f02add08bd24c.mp4",
+    "static/media/image1.png": "/port/static/media/image1.fd48d352ff652524e3cb.png",
     "static/media/psglogo.png": "/port/static/media/psglogo.7ae2b371284547773218.png",
     "static/media/Ldr icone.png": "/port/static/media/Ldr icone.01130952b750ba6204e1.png",
+    "static/media/image.png": "/port/static/media/image.6bc0c7357b38500c21ca.png",
     "static/media/IIIT Allahabad.jpg": "/port/static/media/IIIT Allahabad.1d46cf6360ad05205ec7.jpg",
     "static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).jpg": "/port/static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).75f919102217cd1e20ca.jpg",
     "static/media/Oasis INFOBYTE.jpg": "/port/static/media/Oasis INFOBYTE.102f8546c0af3708bdcd.jpg",
@@ -33,12 +35,12 @@
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
-    "main.af20f317.css.map": "/port/static/css/main.af20f317.css.map",
-    "main.c5da2ec2.js.map": "/port/static/js/main.c5da2ec2.js.map",
-    "453.d855a71b.chunk.js.map": "/port/static/js/453.d855a71b.chunk.js.map"
+    "main.1445c7b9.css.map": "/port/static/css/main.1445c7b9.css.map",
+    "main.c1828af8.js.map": "/port/static/js/main.c1828af8.js.map",
+    "488.ccc9b638.chunk.js.map": "/port/static/js/488.ccc9b638.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af20f317.css",
-    "static/js/main.c5da2ec2.js"
+    "static/css/main.1445c7b9.css",
+    "static/js/main.c1828af8.js"
   ]
 }
