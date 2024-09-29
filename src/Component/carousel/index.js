@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from "react";
+import React from "react";
 import { Carousel } from "flowbite-react";
 
 import IMG from "./IMG/ISRO-Certificate.jpg";

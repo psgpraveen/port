@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import Ldr from "./img/Ldr icone.png";
 import Robo from "./img/ROBOTIC ICON.png";
+import NewsImg from "./img/news.webp";
 import Tesla from "./img/tesla-coil.jpg";
 import Movies from "./img/Movies-Blocks.jpeg";
 
@@ -159,7 +160,7 @@ const Index = () => {
             className="text-center text-gray-500 dark:text-gray-400">
             <a href="https://psgpraveen.github.io/News-Hub/" target="_blank">   <img
               className="mx-auto mb-4 w-36 h-36 rounded-full"
-              src="https://portjeff.com/wp-content/uploads/2020/03/news_icon2.png"
+              src={NewsImg}
               alt="News Avatar"
             /></a>
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -207,20 +208,20 @@ const Index = () => {
             </ul>
           </motion.div>
           <motion.div
-            style={{ x: -50, height: "auto" }}whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
+            style={{ x: -50, height: "auto" }} whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
             whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
-               <a href="https://psgpraveen.github.io/chat/"
-                  target="_blank">
-            <img
-              className="mx-auto mb-4 w-36 h-36 rounded-full"
-              src="https://squaremedia.solutions/wp-content/uploads/2017/04/AdobeStock_100876796.jpeg"
-              alt="Joseph Avatar"
-            /></a>
+            <a href="https://psgpraveen.github.io/chat/"
+              target="_blank">
+              <img
+                className="mx-auto mb-4 w-36 h-36 rounded-full"
+                src="https://squaremedia.solutions/wp-content/uploads/2017/04/AdobeStock_100876796.jpeg"
+                alt="Joseph Avatar"
+              /></a>
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="https://psgpraveen.github.io/chat/"
-                  target="_blank">Live Chatting Web-APP</a>
+                target="_blank">Live Chatting Web-APP</a>
             </h3>
             <ul className="flex justify-center mt-4 space-x-4">
               <li>
@@ -261,14 +262,14 @@ const Index = () => {
               </li>
             </ul>
           </motion.div>
-          
-         
+
+
           <motion.div
-            style={{ x: 50, height: "auto" }}whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
+            style={{ x: 50, height: "auto" }} whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
             whileInView={{ x: 1, transition: { duration: 1 } }}
             className="text-center text-gray-500 dark:text-gray-400">
-           <a href="https://psgpraveen.github.io/video_/" target="_blank">  <img
+            <a href="https://psgpraveen.github.io/video_/" target="_blank">  <img
               className="mx-auto mb-4 w-36 h-36 rounded-full"
               src="https://pluspng.com/img-png/video-conferencing-png-assemble-communication-conference-consult-discuss-meeting-video-conference-icon-512.png"
               alt="Video Conferncing"

@@ -4,6 +4,7 @@ import Psg from "./img/PSG1.jpg";
 import cv from "./img/Praveen Resume2.pdf";
 // import { motion} from "framer-motion";
 import "../../App.css"
+import {Helmet} from "react-helmet";
 
 
 const index = () => {
@@ -18,8 +19,14 @@ const index = () => {
   };
 
   return (<>
+<Helmet>
+        {/* <title>Praveen Kumar Gupta - Full-Stack Developer</title> */}
+        <meta name="description" content="Praveen Kumar Gupta's portfolio showcasing skills in full-stack development, including expertise in MERN stack technologies." />
+        <link rel="canonical" href="https://yourwebsite.com" /> {/* Update with your actual URL */}
+      </Helmet>
+  
     <div id="card" className="lg:flex w-full lg:h-[38rem] -mt-[3.5rem] lg:-mt-[5rem] px-8 lg:px-48 py-8">
-      <div className="grid overflow-hidden lg:w-1/3 h-2/5 m-10 lg:m-0 lg:h-auto flex-grow card bg-base-300 rounded-box place-items-center">
+      <div className="grid overflow-hidden lg:w-[46%] h-2/5 m-10 lg:m-0 lg:h-auto flex-grow card bg-base-300 rounded-box place-items-center">
         <motion.img
           style={{ x: -100 }}
           whileInView={{ x: 1, transition: { duration: 1 } }}

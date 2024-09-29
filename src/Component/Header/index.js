@@ -28,9 +28,10 @@ function index() {
                 <li>
                     <Link to="/project" className="text-gray-900 lg:text-xl dark:text-white hover:underline">Projects</Link>
                 </li>
-                {/* <li>
-                    <a href="#comment" className="text-gray-900 dark:text-white hover:underline">Comment</a>
-                </li> */}
+                <li>
+                    <Link to="/service" className="text-gray-900 lg:text-xl dark:text-white hover:underline">Service</Link>
+                </li>
+              
             </ul>
         </div>
     </div>
