@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/port/static/css/main.8acbe3b5.css",
-    "main.js": "/port/static/js/main.51627a3c.js",
+    "main.js": "/port/static/js/main.034ce04e.js",
     "static/js/488.ccc9b638.chunk.js": "/port/static/js/488.ccc9b638.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
     "static/media/LDR.mp4": "/port/static/media/LDR.eeeacd2f02add08bd24c.mp4",
-    "static/media/image1.png": "/port/static/media/image1.fd48d352ff652524e3cb.png",
     "static/media/psglogo.png": "/port/static/media/psglogo.7ae2b371284547773218.png",
     "static/media/Ldr icone.png": "/port/static/media/Ldr icone.01130952b750ba6204e1.png",
-    "static/media/image.png": "/port/static/media/image.6bc0c7357b38500c21ca.png",
     "static/media/IIIT Allahabad.jpg": "/port/static/media/IIIT Allahabad.1d46cf6360ad05205ec7.jpg",
     "static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).jpg": "/port/static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).75f919102217cd1e20ca.jpg",
     "static/media/Oasis INFOBYTE.jpg": "/port/static/media/Oasis INFOBYTE.102f8546c0af3708bdcd.jpg",
     "static/media/Email-campaign-amico.png": "/port/static/media/Email-campaign-amico.f16dc354be8560f8d565.png",
     "static/media/Bharat Intern .jpg": "/port/static/media/Bharat Intern .ed14fa1e05e6a64c3352.jpg",
+    "static/media/image1.png": "/port/static/media/image1.b672c53b7128dd1617ee.png",
     "static/media/Praveen Resume2.pdf": "/port/static/media/Praveen Resume2.13304ed3efc1214a84d4.pdf",
     "static/media/UPSDM.jpg": "/port/static/media/UPSDM.96d82a0606496e98e2df.jpg",
     "static/media/Tata Consultancy Services completion_certificate.jpg": "/port/static/media/Tata Consultancy Services completion_certificate.93031dfc946753afca0f.jpg",
+    "static/media/image.png": "/port/static/media/image.7188b5acc0ac372a9a4b.png",
     "static/media/nodejs-express-tutorial-2021.png": "/port/static/media/nodejs-express-tutorial-2021.34a2fecd7110b907406f.png",
     "static/media/certificate.jpg": "/port/static/media/certificate.b0b528041c43ecaf4e5e.jpg",
     "static/media/Armpic1.png": "/port/static/media/Armpic1.bbe48259b43e31be6b30.png",
@@ -36,11 +36,11 @@
     "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
     "main.8acbe3b5.css.map": "/port/static/css/main.8acbe3b5.css.map",
-    "main.51627a3c.js.map": "/port/static/js/main.51627a3c.js.map",
+    "main.034ce04e.js.map": "/port/static/js/main.034ce04e.js.map",
     "488.ccc9b638.chunk.js.map": "/port/static/js/488.ccc9b638.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8acbe3b5.css",
-    "static/js/main.51627a3c.js"
+    "static/js/main.034ce04e.js"
   ]
 }
