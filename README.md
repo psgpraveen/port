@@ -60,11 +60,7 @@ Projects Section
 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a branch: git checkout -b feature-name.
-Commit your changes: git commit -m 'Add feature-name'.
-Push to the branch: git push origin feature-name.
-Open a pull request.
+
 License
 This project is licensed under the MIT License.
 
@@ -72,6 +68,7 @@ Contact
 For inquiries or feedback, feel free to reach out:
 
 Email: adm21002947@rmlau.ac.in
+
 LinkedIn: Praveen Kumar Gupta
 Developed with 💻 and ❤️ by Praveen Kumar Gupta.
 
