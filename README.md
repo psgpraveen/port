@@ -70,9 +70,8 @@ For inquiries or feedback, feel free to reach out:
 Email: adm21002947@rmlau.ac.in
 
 LinkedIn: Praveen Kumar Gupta
+
 Developed with 💻 and ❤️ by Praveen Kumar Gupta.
 
-rust
-Copy code
 
 You can copy and use this directly for your portfolio'
