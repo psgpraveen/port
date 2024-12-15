@@ -2,10 +2,9 @@ import { Link } from 'react-router-dom';
 import React from "react";
 import { motion } from 'framer-motion'
 const M = motion(Link);
-
 const Index = () => {
   return (
-    <>
+    <>  
       <footer className="footer p-10 bg-blue-500 text-black text-base-content">
         <nav className="bg-blue-500">
           <motion.h3 initial={{ y: 50, opacity: 0 }}

@@ -5,7 +5,7 @@ import img3 from "./Armpic1.png";
 import Comment from '../comment/index.js'
 const Index = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top when component mounts
+    window.scrollTo(0, 0);
   }, [])
   return (
     <div id='rob'className="card w-full snap-x glass lg:p-16">

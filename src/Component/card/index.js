@@ -1,30 +1,25 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Psg from "./img/PSG1.jpg";
-import cv from "./img/Praveen Resume2.pdf";
+import cv from "./img/Praveen CV_Web.pdf";
 // import { motion} from "framer-motion";
 import "../../App.css"
-import {Helmet} from "react-helmet";
 
 
 const index = () => {
   const fade = {
     initial: {
-      scale:0
+      scale: 0
     },
     animate: {
-      scale:1.3,
-      transition: { duration: 2, delay: 1,repeatType: "Infinity"},
+      scale: 1.3,
+      transition: { duration: 2, delay: 1, repeatType: "Infinity" },
     },
   };
 
   return (<>
-<Helmet>
-        {/* <title>Praveen Kumar Gupta - Full-Stack Developer</title> */}
-        <meta name="description" content="Praveen Kumar Gupta's portfolio showcasing skills in full-stack development, including expertise in MERN stack technologies." />
-        <link rel="canonical" href="https://yourwebsite.com" /> {/* Update with your actual URL */}
-      </Helmet>
-  
+   
+
     <div id="card" className="lg:flex w-full lg:h-[38rem] -mt-[3.5rem] lg:-mt-[5rem] px-8 lg:px-48 py-8">
       <div className="grid overflow-hidden lg:w-[46%] h-2/5 m-10 lg:m-0 lg:h-auto flex-grow card bg-base-300 rounded-box place-items-center">
         <motion.img
@@ -189,47 +184,47 @@ const index = () => {
           <button className="btn btn-primary  w-fit mb-3">
             Download CV
           </button>
-        </motion.a></div><motion.div  whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
-            variants={fade}
-            initial="initial"
-            whileInView="animate"
-            className="ani1 ani"></motion.div>
-    <motion.div  whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
-            variants={fade}
-            initial="initial"            
-            whileInView="animate"
-            viewport={{once:true}} className="ani2 ani"></motion.div>
-    <motion.div  whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
-            variants={fade}
-            initial="initial"            
-            whileInView="animate"
-            viewport={{once:true}} className="ani3 ani"></motion.div>
-    <motion.div  whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
-            variants={fade}
-            initial="initial"            
-            whileInView="animate"
-            viewport={{once:true}} className="ani4 ani"></motion.div>
-    <motion.div  whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
-            variants={fade}
-            initial="initial"            
-            whileInView="animate"
-            viewport={{once:true}} className="ani5 ani"></motion.div>
-    <motion.div  whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 1.1 }} 
-            variants={fade}
-            initial="initial"            
-            whileInView="animate"
-            viewport={{once:true}} className="ani6 ani"></motion.div>
+        </motion.a></div><motion.div whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 1.1 }}
+          variants={fade}
+          initial="initial"
+          whileInView="animate"
+          className="ani1 ani"></motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 1.1 }}
+          variants={fade}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }} className="ani2 ani"></motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 1.1 }}
+          variants={fade}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }} className="ani3 ani"></motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 1.1 }}
+          variants={fade}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }} className="ani4 ani"></motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 1.1 }}
+          variants={fade}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }} className="ani5 ani"></motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 1.1 }}
+          variants={fade}
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }} className="ani6 ani"></motion.div>
       </div>
 
     </div>
-    
-    </>
+
+  </>
   );
 };
 

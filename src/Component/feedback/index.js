@@ -3,7 +3,7 @@ import IMG from "./Email-campaign-amico.png";
 import { motion } from "framer-motion";
 import Api from "../api/index";
 import axios from "axios";
-import {Helmet} from "react-helmet";
+// import {Helmet} from "react-helmet";
 const Index = () => {
   const [name, setName] = useState("");
   const [msg, setMsg] = useState("");
@@ -65,16 +65,7 @@ const Index = () => {
   
   return (
     <>
-     <Helmet>
-        <meta charSet="utf-8" />
-        {/* <title>Contact Me - Psgpraveen</title> */}
-        <link rel="canonical" href="https://ghscschool.vercel.app/contact" />
-        <meta name="description" content="Get in touch with Psgpraveen for inquiries or collaborations. Send a message with your details and expect a prompt response." />
-        <meta name="keywords" content="Contact, Psgpraveen, inquiries, collaborations, message, email" />
-        <meta name="author" content="Psgpraveen" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="robots" content="index, follow" />
-      </Helmet>
+    
     <div className="lg:p-16">
       <motion.div
         whileInView={{ y: 0, opacity: 1 }}

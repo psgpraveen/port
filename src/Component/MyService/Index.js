@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Interiorpic from './img/image1.png';
 import GHSCPic from './img/image.png';
-import {Helmet} from "react-helmet";
 
 const MyServices = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -45,16 +44,6 @@ const MyServices = () => {
   return (
     <section className=" py-16">
 
-<Helmet>
-    <meta charSet="utf-8" />
-    {/* <title>My Services - Psgpraveen</title> */}
-    <link rel="canonical" href="https://ghscschool.vercel.app/my-services" />
-    <meta name="description" content="Explore my services including Interior Design and GHSC Government School website. Discover my design skills and projects dedicated to quality education." />
-    <meta name="keywords" content="Interior Design, Web Development, GHSC Government School, Quality Education, Professional Services" />
-    <meta name="author" content="Psgpraveen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-</Helmet>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">

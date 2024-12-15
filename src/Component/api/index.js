@@ -1,6 +1,5 @@
 import React from "react";
 function Index({hidden,m}) {
-console.log(hidden);
     return (<div style={{ display:hidden ? "none" : "block" }} className=" mx-auto h-16 w-fit position-absolute">
 
     <div   className=" alert alert-success">

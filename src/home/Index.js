@@ -13,7 +13,6 @@ import Comment from "../Component/comment/index";
 import img from "../Component/Header/psglogo.png";
 import Phone from '../Component/Phone/Index'
 import MyServices from '../Component/MyService/Index'
-import {Helmet} from "react-helmet";
 
 import axios from "axios";
 
@@ -42,16 +41,7 @@ const Index = () => {
     }
   }, [result]);
 
-  return (<> <Helmet>
-    <meta charSet="utf-8" />
-    <title>Psgpraveen</title>
-    <link rel="canonical" href="https://ghscschool.vercel.app" />
-    <meta name="description" content="Explore my portfolio showcasing my projects, skills, and services. Get in touch for inquiries or collaborations." />
-    <meta name="keywords" content="Portfolio, Psgpraveen, projects, skills, services, contact" />
-    <meta name="author" content="Psgpraveen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-  </Helmet>
+  return (<> 
     <div className="relative ">
       {isLoading ? (
         <div className="w-full back1 bg-red-300 bg-opacity-25 h-dvh  center flex-col mx-auto grid justify-center justify-items-center"><motion.img className="opacity-30 h-1/3 mix-blend-darken my-auto w-fit" src={img} alt="Loading..."

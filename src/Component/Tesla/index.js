@@ -7,7 +7,7 @@ import Comment from '../comment/index.js'
 
 const Index = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top when component mounts
+    window.scrollTo(0, 0);
   }, [])
   return (
      <div id='tes' className="py-3 overflow-hidden"> 
