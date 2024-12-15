@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.8acbe3b5.css",
-    "main.js": "/port/static/js/main.61f138a8.js",
+    "main.css": "/port/static/css/main.5f7496b8.css",
+    "main.js": "/port/static/js/main.75e5d21b.js",
     "static/js/488.ccc9b638.chunk.js": "/port/static/js/488.ccc9b638.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -17,7 +17,6 @@
     "static/media/UPSDM.jpg": "/port/static/media/UPSDM.96d82a0606496e98e2df.jpg",
     "static/media/Tata Consultancy Services completion_certificate.jpg": "/port/static/media/Tata Consultancy Services completion_certificate.93031dfc946753afca0f.jpg",
     "static/media/image.png": "/port/static/media/image.7188b5acc0ac372a9a4b.png",
-    "static/media/nodejs-express-tutorial-2021.png": "/port/static/media/nodejs-express-tutorial-2021.34a2fecd7110b907406f.png",
     "static/media/Praveen CV_Web.pdf": "/port/static/media/Praveen CV_Web.39f48d78195cc6b5720f.pdf",
     "static/media/certificate.jpg": "/port/static/media/certificate.b0b528041c43ecaf4e5e.jpg",
     "static/media/Armpic1.png": "/port/static/media/Armpic1.bbe48259b43e31be6b30.png",
@@ -33,14 +32,13 @@
     "static/media/ROBOTIC ICON.png": "/port/static/media/ROBOTIC ICON.bc508afc8f056990a2ba.png",
     "static/media/news.webp": "/port/static/media/news.ee5ede8467000fa70632.webp",
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
-    "static/media/MongoDB.webp": "/port/static/media/MongoDB.3e48c2130eb56112ed94.webp",
     "index.html": "/port/index.html",
-    "main.8acbe3b5.css.map": "/port/static/css/main.8acbe3b5.css.map",
-    "main.61f138a8.js.map": "/port/static/js/main.61f138a8.js.map",
+    "main.5f7496b8.css.map": "/port/static/css/main.5f7496b8.css.map",
+    "main.75e5d21b.js.map": "/port/static/js/main.75e5d21b.js.map",
     "488.ccc9b638.chunk.js.map": "/port/static/js/488.ccc9b638.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8acbe3b5.css",
-    "static/js/main.61f138a8.js"
+    "static/css/main.5f7496b8.css",
+    "static/js/main.75e5d21b.js"
   ]
 }
