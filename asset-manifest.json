@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.5f7496b8.css",
-    "main.js": "/port/static/js/main.b42036b3.js",
+    "main.css": "/port/static/css/main.06cb1ef3.css",
+    "main.js": "/port/static/js/main.e001077e.js",
     "static/js/488.ccc9b638.chunk.js": "/port/static/js/488.ccc9b638.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
@@ -33,12 +33,12 @@
     "static/media/news.webp": "/port/static/media/news.ee5ede8467000fa70632.webp",
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
     "index.html": "/port/index.html",
-    "main.5f7496b8.css.map": "/port/static/css/main.5f7496b8.css.map",
-    "main.b42036b3.js.map": "/port/static/js/main.b42036b3.js.map",
+    "main.06cb1ef3.css.map": "/port/static/css/main.06cb1ef3.css.map",
+    "main.e001077e.js.map": "/port/static/js/main.e001077e.js.map",
     "488.ccc9b638.chunk.js.map": "/port/static/js/488.ccc9b638.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f7496b8.css",
-    "static/js/main.b42036b3.js"
+    "static/css/main.06cb1ef3.css",
+    "static/js/main.e001077e.js"
   ]
 }
