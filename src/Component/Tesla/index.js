@@ -53,7 +53,7 @@ const Index = () => {
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }} viewport={{once:true}} class="h-80 border-black drop-shadow-md mb-4  lg:mb-0 rounded-lg border-3" autoPlay muted controls>
+          transition={{ duration: 0.5 }} viewport={{once:true}} className="h-80 border-black drop-shadow-md mb-4  lg:mb-0 rounded-lg border-3" autoPlay muted controls>
           <source src={tesla2} type="video/mp4" />
           Your browser does not support the video tag.
         </motion.video>
@@ -61,7 +61,7 @@ const Index = () => {
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }} viewport={{once:true}}class="h-80 border-3 rounded-lg drop-shadow-md border-black" autoPlay muted controls>
+          transition={{ duration: 0.5 }} viewport={{once:true}}className="h-80 border-3 rounded-lg drop-shadow-md border-black" autoPlay muted controls>
           <source src={tesla3} type="video/mp4" />
           Your browser does not support the video tag.
         </motion.video>

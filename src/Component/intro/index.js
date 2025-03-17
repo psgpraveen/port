@@ -6,7 +6,7 @@ const Index = () => {
   let [currentIndex, setCurrentIndex] = useState(0);
   let [isReversed, setIsReversed] = useState(false);
   let [index, setIndex] = useState(0);
-  let [name, setName] = useState([
+  let [name] = useState([
     "Full Stack web devloper",
     "Engineer","Technophile",
   ]);

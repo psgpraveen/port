@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import Header from "../Component/Header/index";
-import Footer from "../Component/Footer/index";
 import CARD from "../Component/card/index";
 import PROJECT from "../Component/project/index";
 import INTRO from "../Component/intro/index";
@@ -32,7 +30,8 @@ const Index = () => {
     } catch (error) {
       console.error("Error fetching data:", error);
     }
-  }; useEffect(() => {
+  };
+  useEffect(() => {
     fetchData();
   }, []);
   useEffect(() => {
@@ -41,7 +40,7 @@ const Index = () => {
     }
   }, [result]);
 
-  return (<> 
+  return (<>
     <div className="relative ">
       {isLoading ? (
         <div className="w-full back1 bg-red-300 bg-opacity-25 h-dvh  center flex-col mx-auto grid justify-center justify-items-center"><motion.img className="opacity-30 h-1/3 mix-blend-darken my-auto w-fit" src={img} alt="Loading..."
@@ -56,8 +55,7 @@ const Index = () => {
             transition={{ duration: 5, repeat: Infinity }}>Please! Wait while backend server start...</motion.h2></div>
       ) : (
         <div>
-          <Header />
-          <Phone/>
+          <Phone />
           <INTRO />
           <Carousel />
           <CARD />
@@ -65,9 +63,9 @@ const Index = () => {
           <Skill />
           <PROJECT />
           <div className="bg-gradient-to-r from-blue-100 to-blue-50" ><MyServices />
-          <Feedback />
-          <Comment /></div>
-          <Footer /></div>)}
+            <Feedback />
+            <Comment /></div>
+        </div>)}
     </div></>
   );
 };

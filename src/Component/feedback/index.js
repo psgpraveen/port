@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import IMG from "./Email-campaign-amico.png";
 import { motion } from "framer-motion";
 import Api from "../api/index";
