@@ -1,16 +1,19 @@
-import React ,{useEffect} from "react";
-import {motion} from "framer-motion";
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
 import img1 from "./ArmCircuit.jpg";
 import img3 from "./Armpic1.png";
 import Comment from '../comment/index.js'
+import Header from '../Header'
+import Footer from '../Footer'
 const Index = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [])
-  return (
-    <div id='rob'className="card w-full snap-x glass lg:p-16">
+  return (<>
+    <Header />
+    <div id='rob' className="card w-full snap-x glass lg:p-16">
       <figure className="snap-center">
-        <motion.img  initial={{ y: 50, opacity: 0 }}
+        <motion.img initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
@@ -23,15 +26,15 @@ const Index = () => {
         />
       </figure>
       <div className="card-body snap-center snap-x">
-        <motion.h2  initial={{ y: 50, opacity: 0 }}
+        <motion.h2 initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }} viewport={{once:true}}
+          whileTap={{ scale: 1.1 }} viewport={{ once: true }}
           transition={{ duration: 0.5 }} className="card-title underline font-bold">
           Smartphone Controlled Programmable Robotic Arm [ Minor Project (B.Tech
           3rd Sem )]
         </motion.h2>
-        <motion.p  initial={{ y: 50, opacity: 0 }}
+        <motion.p initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
@@ -43,7 +46,7 @@ const Index = () => {
           involves programming the arm each time with set of instructions to be
           followed.
         </motion.p>
-        <motion.p  initial={{ y: 50, opacity: 0 }}
+        <motion.p initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
@@ -53,41 +56,41 @@ const Index = () => {
           automated repetitive tasks as desired by user. The arm makes use of 4
           motors controlled by an arduino Uno to achieve the task
         </motion.p>
-        <motion.h2  initial={{ y: 50, opacity: 0 }}
+        <motion.h2 initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }} className="card-title font-bold underline">
           This Arduino Powered arm provides the following advantages:
         </motion.h2>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>DOF arm for 360° Movements</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Programmable Arm as per user automation process</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>
-            Smartphone controlled system with no added programming hardware
-            needed
-          </motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+          Smartphone controlled system with no added programming hardware
+          needed
+        </motion.li>
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>
-            Easy to control movements with sliders instead of complicated
-            programming
-          </motion.li>
-        
-        <motion.p  initial={{ y: 50, opacity: 0 }}
+          Easy to control movements with sliders instead of complicated
+          programming
+        </motion.li>
+
+        <motion.p initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
@@ -106,28 +109,28 @@ const Index = () => {
           step and saves it. The controller can now repeat the set of steps so
           as to execute the entire movement command with desired coordination
           with each servo to achieve the program repetitively.
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>
             Thus the system provides a smart mechanism to use a 360°
             programmable robotic arm with smartphone controlled system.
           </motion.li>
         </motion.p>
         <div className="snap-center">
-          <motion.h3  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }} className="text-center underline font-bold text-3xl text-black underline-offset-1">
+          <motion.h3 initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }} className="text-center underline font-bold text-3xl text-black underline-offset-1">
             Circuit Diagram
           </motion.h3>
-          <motion.img  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}
+          <motion.img initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}
             className="snap-center w-fit rounded my-2 justi mx-auto max-h-96 "
             src={img1}
             height={100}
@@ -135,116 +138,116 @@ const Index = () => {
             alt="Circuit Diagram"
           />
         </div>
-        <motion.h3  initial={{ y: 50, opacity: 0 }}
+        <motion.h3 initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }} className="text-black font-bold underline">Components:</motion.h3>
-        
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Arduino Uno</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Gear Motors</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Motor Driver Shield</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Bluetooth module</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Base Frame</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Gripper Claws</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Supporting Frame</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Cables and Connectors</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>PCB and Breadboards</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Transformer/Adapter</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Push Buttons</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
+        <motion.li initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }}>Switch</motion.li>
-        
+
         <div className=" snap-center">
-          <motion.h2  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }} className="text-black text-center py-1 font-bold underline">Software Specifications</motion.h2>
-          <motion.h3   initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }} className="text-center font-bold ">Programming Language: C</motion.h3>
-          <motion.h4  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }} className="text-black font-bold underline" >Arduino code</motion.h4>
+          <motion.h2 initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }} className="text-black text-center py-1 font-bold underline">Software Specifications</motion.h2>
+          <motion.h3 initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }} className="text-center font-bold ">Programming Language: C</motion.h3>
+          <motion.h4 initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }} className="text-black font-bold underline" >Arduino code</motion.h4>
           <pre className="bg-inherit">
             {`
  #include <AFMotor.h>
     AF_DCMotor motor1(1);
     AF_DCMotor motor2(2);
-   AF_DCMotor motor3(3);
- AF_DCMotor motor4(4);               
- int Speed = 230;
- char value;
- void setup() {
- Serial.begin(9600);
- motor1.setSpeed(Speed);
-motor2.setSpeed(Speed);
- motor3.setSpeed(Speed);
-  motor4.setSpeed(Speed);
-  }               
-void loop() {
-if (Serial.available() > 0) {
-value = Serial.read();
-                    }
-if (value == 'F') {
-motor1.run(FORWARD);
-motor2.run(RELEASE);
+    AF_DCMotor motor3(3);
+    AF_DCMotor motor4(4);               
+    int Speed = 230;
+    char value;
+    void setup() {
+      Serial.begin(9600);
+      motor1.setSpeed(Speed);
+      motor2.setSpeed(Speed);
+      motor3.setSpeed(Speed);
+      motor4.setSpeed(Speed);
+      }               
+      void loop() {
+        if (Serial.available() > 0) {
+          value = Serial.read();
+    }
+  if (value == 'F') {
+  motor1.run(FORWARD);
+  motor2.run(RELEASE);
 motor3.run(RELEASE);
 motor4.run(RELEASE);
 } else if (value == 'B') {
-motor1.run(BACKWARD);
+   motor1.run(BACKWARD);
 motor2.run(RELEASE);
 motor3.run(RELEASE);
 motor4.run(RELEASE);
@@ -254,111 +257,111 @@ motor2.run(BACKWARD);
 motor3.run(RELEASE);
 motor4.run(RELEASE);
 } else if (value == 'R') {
-motor1.run(RELEASE);
-motor2.run(FORWARD);
-motor3.run(RELEASE);
-motor4.run(RELEASE);
-} else if (value == 'G') {
-motor1.run(RELEASE);
-motor3.run(FORWARD);
-motor2.run(RELEASE);
-motor4.run(RELEASE);
-} else if (value == 'I') {
-motor1.run(RELEASE);
-motor2.run(RELEASE);
-motor3.run(BACKWARD);
-motor4.run(RELEASE);
-} else if (value == 'H') {
-motor1.run(RELEASE);
-motor2.run(RELEASE);
-motor3.run(RELEASE);
-motor4.run(FORWARD);
-} else if (value == 'J') {
-motor1.run(RELEASE);
-motor2.run(RELEASE);
-motor3.run(RELEASE);
-motor4.run(BACKWARD);
-} else {
-motor1.run(RELEASE);
-motor2.run(RELEASE);
-motor3.run(RELEASE);
-motor4.run(RELEASE);
-} } `}
-</pre>
+                            motor1.run(RELEASE);
+  motor2.run(FORWARD);
+  motor3.run(RELEASE);
+  motor4.run(RELEASE);
+  } else if (value == 'G') {
+    motor1.run(RELEASE);
+    motor3.run(FORWARD);
+    motor2.run(RELEASE);
+    motor4.run(RELEASE);
+    } else if (value == 'I') {
+      motor1.run(RELEASE);
+      motor2.run(RELEASE);
+      motor3.run(BACKWARD);
+      motor4.run(RELEASE);
+      } else if (value == 'H') {
+        motor1.run(RELEASE);
+        motor2.run(RELEASE);
+        motor3.run(RELEASE);
+        motor4.run(FORWARD);
+        } else if (value == 'J') {
+          motor1.run(RELEASE);
+          motor2.run(RELEASE);
+          motor3.run(RELEASE);
+          motor4.run(BACKWARD);
+          } else {
+            motor1.run(RELEASE);
+          motor2.run(RELEASE);
+          motor3.run(RELEASE);
+          motor4.run(RELEASE);
+          } } `}
+          </pre>
         </div>
-        <motion.h2  initial={{ y: 50, opacity: 0 }}
+        <motion.h2 initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }} className="text-center font-bold text-2xl underline">Application</motion.h2>
         <div className="mx-auto my-5">
-          
-        <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}> Production Lines Automation</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>Automated Cooking Robots</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>Fruit/Vegetable Sorting Robots</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>Wall Painting Robots</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>Medical/Surgical Operation Robotics</motion.li>
+
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}> Production Lines Automation</motion.li>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>Automated Cooking Robots</motion.li>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>Fruit/Vegetable Sorting Robots</motion.li>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>Wall Painting Robots</motion.li>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>Medical/Surgical Operation Robotics</motion.li>
         </div>
-    
-        <motion.h2  initial={{ y: 50, opacity: 0 }}
+
+        <motion.h2 initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}className="text-center font-bold underline text-2xl">Advantages :</motion.h2>
+          transition={{ duration: 0.5 }} className="text-center font-bold underline text-2xl">Advantages :</motion.h2>
         <div className="mx-auto my-5">
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>4 DOF arm for 360° Movements</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>Programmable Arm as per user automation process</motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>4 DOF arm for 360° Movements</motion.li>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>Programmable Arm as per user automation process</motion.li>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>
             Smartphone controlled system with no added programming hardware
             needed
           </motion.li>
-          <motion.li  initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 1.1 }}
-          transition={{ duration: 0.5 }}>
+          <motion.li initial={{ y: 50, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.1 }}
+            transition={{ duration: 0.5 }}>
             Easy to control movements with sliders instead of complicated
             programming
           </motion.li>
         </div>
-        <motion.h3  initial={{ y: 50, opacity: 0 }}
+        <motion.h3 initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
           transition={{ duration: 0.5 }} className="text-center font-bold underline text-3xl">Block Diagram</motion.h3>
-        <motion.img  initial={{ y: 50, opacity: 0 }}
+        <motion.img initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
@@ -369,9 +372,10 @@ motor4.run(RELEASE);
           width={100}
         />
 
-        <div className="w-full"><Comment/></div>
+        <div className="w-full"><Comment /></div>
       </div>
-    </div>
+    </div><Footer />
+  </>
   );
 };
 

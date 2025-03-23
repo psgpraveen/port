@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes ,useLocation} from "react-router-dom";
 import { motion } from "framer-motion";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Header from "./Component/Header/index";
@@ -56,17 +56,17 @@ function App() {
 
       <Router basename="/port">
       <AnalyticsTracker />
-        <Header />
+        {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/tesla" element={<Tesla />} />
+          <Route path="/tesla" element={<><Header/><Tesla /><Footer/></>} />
           <Route path="/robot" element={<Robot />} />
-          <Route path="/project" element={<PROJECT />} />
-          <Route path="/about" element={<CARD />} />
-          <Route path="/ldr" element={<Ldr />} />
-          <Route path="/service" element={<Service />} />
+          <Route path="/project" element={<><Header/><PROJECT /><Footer/> </>} />
+          <Route path="/about" element={<><Header/><CARD /><Footer/>  </>} />
+          <Route path="/ldr" element={<><Header/><Ldr  /><Footer/></>} />
+          <Route path="/service" element={<><Header/><Service /><Footer/></>} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
 
       {[...Array(6)].map((_, i) => (

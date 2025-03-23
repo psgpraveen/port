@@ -11,7 +11,8 @@ import Comment from "../Component/comment/index";
 import img from "../Component/Header/psglogo.png";
 import Phone from '../Component/Phone/Index'
 import MyServices from '../Component/MyService/Index'
-
+import Header from '../Component/Header/index'
+import Footer from '../Component/Footer/index'
 import axios from "axios";
 
 const Index = () => {
@@ -55,6 +56,7 @@ const Index = () => {
             transition={{ duration: 5, repeat: Infinity }}>Please! Wait while backend server start...</motion.h2></div>
       ) : (
         <div>
+          <Header/>
           <Phone />
           <INTRO />
           <Carousel />
@@ -65,6 +67,7 @@ const Index = () => {
           <div className="bg-gradient-to-r from-blue-100 to-blue-50" ><MyServices />
             <Feedback />
             <Comment /></div>
+            <Footer/>
         </div>)}
     </div></>
   );

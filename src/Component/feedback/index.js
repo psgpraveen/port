@@ -70,8 +70,6 @@ const Index = () => {
       <motion.div
         whileInView={{ y: 0, opacity: 1 }}
         initial={{ y: 50, opacity: 0 }}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 1.1 }}
         transition={{ duration: 0.5 }}
         className="card rounded-none lg:rounded-3xl  lg:card-side lg:mx-[3rem] lg:shadow-xl">
         <figure className="lg:w-1/2">
