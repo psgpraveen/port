@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/port/static/css/main.06cb1ef3.css",
-    "main.js": "/port/static/js/main.5b784b0d.js",
+    "main.js": "/port/static/js/main.6b2b66d2.js",
     "static/js/488.ccc9b638.chunk.js": "/port/static/js/488.ccc9b638.chunk.js",
     "static/media/Tesla3.mp4": "/port/static/media/Tesla3.de94df3fb9c21bb814d5.mp4",
     "static/media/tesla2.mp4": "/port/static/media/tesla2.15fabf9d4b5f3938e548.mp4",
     "static/media/LDR.mp4": "/port/static/media/LDR.eeeacd2f02add08bd24c.mp4",
+    "static/media/linktree.png": "/port/static/media/linktree.29a6cca070e21e559be3.png",
     "static/media/psglogo.png": "/port/static/media/psglogo.7ae2b371284547773218.png",
     "static/media/Ldr icone.png": "/port/static/media/Ldr icone.01130952b750ba6204e1.png",
+    "static/media/bulkemail.jpg": "/port/static/media/bulkemail.223f88b49b654ef37700.jpg",
     "static/media/IIIT Allahabad.jpg": "/port/static/media/IIIT Allahabad.1d46cf6360ad05205ec7.jpg",
     "static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).jpg": "/port/static/media/Praveen Kumar Gupta_Winter Internship Completion Certificate (2).75f919102217cd1e20ca.jpg",
     "static/media/Oasis INFOBYTE.jpg": "/port/static/media/Oasis INFOBYTE.102f8546c0af3708bdcd.jpg",
@@ -34,11 +36,11 @@
     "static/media/Ardent Reader.jpg": "/port/static/media/Ardent Reader.d7888793bfbefcec5166.jpg",
     "index.html": "/port/index.html",
     "main.06cb1ef3.css.map": "/port/static/css/main.06cb1ef3.css.map",
-    "main.5b784b0d.js.map": "/port/static/js/main.5b784b0d.js.map",
+    "main.6b2b66d2.js.map": "/port/static/js/main.6b2b66d2.js.map",
     "488.ccc9b638.chunk.js.map": "/port/static/js/488.ccc9b638.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06cb1ef3.css",
-    "static/js/main.5b784b0d.js"
+    "static/js/main.6b2b66d2.js"
   ]
 }
